@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1640D6;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 20px;
+    border: 3px red solid;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #FFF7F1;
+    padding: 1%;
+    border: 3px solid black;
+}
+.card .title{
+    background-color: #f46e07;
+}
+.card .title h1{
+    font-family: Gilray;
+    color: grey;
+    text-align: center;
+    padding: 2%;
+}
+.card .title p{
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+.card .image .outer{
+    background-color: #E94560;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .image .inner{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card .name{
+    color: rgb(217, 59, 59);
+    text-align: center;
+    font-family: Gilro;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card .details{
+    background-color: #7F27FF;
+    height: 18%;
+    margin-top: 3%;
+    border-top-left-radius: 50%;
+    padding: 3%;
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+    font-family: Open Sans;
+    font-size: 15px;
+}
+.card .web{
+    background-color: #720455;
+    padding-left: 3%;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
